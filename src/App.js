@@ -23,7 +23,7 @@ export default function App() {
         isMulti
         placeHolder="Select..."
         options={options}
-        onChange={(value) => console.log(value)}
+        onChange={(value) => value}
       />
     </div>
     </div>
